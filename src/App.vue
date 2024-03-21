@@ -1,14 +1,13 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
-import NavBar from './components/NavBar.vue';
+import SildBar from './components/NavBar/SildBar.vue';
 </script>
 
 <template>
-  <NavBar/>
+
+  <SildBar />
   <div>
-<main>
-    <RouterView />
-</main>
+    <main>
+      <!-- <RouterView /> -->
+    </main>
   </div>
 </template>
